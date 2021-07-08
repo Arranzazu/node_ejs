@@ -5,6 +5,7 @@ const express = require('express')
 const server = express()
 const path = require("path")
 
+
 //enrutamiento a hola mundo
 server.get('/hola_mundo', function (req, res) {
   const filepath = path.join(__dirname, 'hola_mundo.html')
